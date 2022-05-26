@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="heading">
+            GPA Calculator
+        </h1>
+        <div class="wrapper">
+            <div class="items sem_1">
+              <div class="item">
+                <label for="course_1">Course 1</label>
+                <!-- <input type="text" name="course_1" id="course_1" class="course" /> -->
+      
+                <input type="text" name="credit" id="credit" placeholder="Credit">
+                <input type="text" name="grade" id="grade" placeholder="Grade">
+              </div>
+              <div class="item">
+                <label for="course_2">Course 2</label>
+                <!-- <input type="text" name="course_2" id="course_2" class="course" /> -->
+      
+                <input type="text" name="credit" id="credit" placeholder="Credit">
+                <input type="text" name="grade" id="grade" placeholder="Grade">
+              </div>
+              <div class="item">
+                <label for="course_3">Course 3</label>
+                <!-- <input type="text" name="course_3" id="course_3" class="course" /> -->
+      
+                <input type="text" name="credit" id="credit" placeholder="Credit">
+                <input type="text" name="grade" id="grade" placeholder="Grade">
+              </div>
+            </div>
+        </div>
+
+      <div class="buttons">
+        <button class="btn" id="add_semester">Add Semester</button>
+        <button class="btn" id="add_course">Add Course</button>
+        <button class="btn" id="get_gpa">Get GPA</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
